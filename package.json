@@ -1,0 +1,19 @@
+{
+  "name": "quality-node",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cuhey3/quality-node.git"
+  },
+  "author": "Cuhey3",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Cuhey3/quality-node/issues"
+  },
+  "homepage": "https://github.com/Cuhey3/quality-node#readme"
+}
