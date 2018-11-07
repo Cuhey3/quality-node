@@ -3,8 +3,12 @@
   "version": "0.0.1",
   "description": "",
   "main": "index.js",
+  "engines": ">=11.1.0",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
+    "debug": "node inspect index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint src"
   },
   "repository": {
     "type": "git",
@@ -15,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/Cuhey3/quality-node/issues"
   },
-  "homepage": "https://github.com/Cuhey3/quality-node#readme"
+  "homepage": "https://github.com/Cuhey3/quality-node#readme",
+  "devDependencies": {
+    "eslint": "^5.8.0"
+  }
 }
