@@ -7,8 +7,14 @@
   "scripts": {
     "start": "node index.js",
     "debug": "node inspect index.js",
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "NODE_ENV=test jest",
     "lint": "eslint src"
+  },
+  "jest": {
+    "verbose": true,
+    "clearMocks": true,
+    "collectCoverage": true,
+    "testMatch": ["<rootDir>/tests/**/*.test.js"]
   },
   "repository": {
     "type": "git",
@@ -22,5 +28,6 @@
   "homepage": "https://github.com/Cuhey3/quality-node#readme",
   "devDependencies": {
     "eslint": "^5.8.0"
-  }
+  },
+  "dependencies": {}
 }
